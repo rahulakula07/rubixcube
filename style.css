@@ -1,0 +1,40 @@
+body {
+  background-color: #1e1e2f;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#cube {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.face {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  grid-template-rows: repeat(3, 30px);
+  margin: 10px;
+}
+
+.sticker {
+  width: 28px;
+  height: 28px;
+  margin: 1px;
+  border: 1px solid #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 15px;
+  font-family: monospace;
+}
